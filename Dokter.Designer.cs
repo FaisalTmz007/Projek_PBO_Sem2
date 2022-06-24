@@ -48,6 +48,7 @@ namespace PBO_ManajemenRumahSakit
             this.keywordTextBox = new System.Windows.Forms.TextBox();
             this.searchButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,6 +65,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.label2.ForeColor = System.Drawing.Color.White;
@@ -75,6 +77,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // nameTextBox
             // 
+            this.nameTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.nameTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.nameTextBox.Location = new System.Drawing.Point(197, 95);
             this.nameTextBox.Name = "nameTextBox";
@@ -83,6 +86,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.label3.ForeColor = System.Drawing.Color.White;
@@ -94,6 +98,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // label4
             // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.label4.ForeColor = System.Drawing.Color.White;
@@ -105,6 +110,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // nomorHPTextBox
             // 
+            this.nomorHPTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.nomorHPTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.nomorHPTextBox.Location = new System.Drawing.Point(197, 250);
             this.nomorHPTextBox.Name = "nomorHPTextBox";
@@ -113,6 +119,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.label5.ForeColor = System.Drawing.Color.White;
@@ -124,6 +131,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // alamatTextBox
             // 
+            this.alamatTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.alamatTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.alamatTextBox.Location = new System.Drawing.Point(197, 302);
             this.alamatTextBox.Name = "alamatTextBox";
@@ -132,6 +140,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.label6.ForeColor = System.Drawing.Color.White;
@@ -143,6 +152,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // idSpesialisTextBox
             // 
+            this.idSpesialisTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.idSpesialisTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.idSpesialisTextBox.Location = new System.Drawing.Point(197, 355);
             this.idSpesialisTextBox.Name = "idSpesialisTextBox";
@@ -151,6 +161,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // label7
             // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.label7.ForeColor = System.Drawing.Color.White;
@@ -162,6 +173,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // genderComboBox
             // 
+            this.genderComboBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.genderComboBox.Font = new System.Drawing.Font("Segoe UI", 10.2F);
             this.genderComboBox.FormattingEnabled = true;
             this.genderComboBox.Items.AddRange(new object[] {
@@ -174,6 +186,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // tanggalLahirTextBox
             // 
+            this.tanggalLahirTextBox.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.tanggalLahirTextBox.CalendarFont = new System.Drawing.Font("Segoe UI", 10.2F);
             this.tanggalLahirTextBox.CustomFormat = "yyyy-MM-dd";
             this.tanggalLahirTextBox.Font = new System.Drawing.Font("Segoe UI", 10.2F);
@@ -185,6 +198,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // insertButton
             // 
+            this.insertButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.insertButton.Location = new System.Drawing.Point(350, 413);
             this.insertButton.Name = "insertButton";
             this.insertButton.Size = new System.Drawing.Size(95, 47);
@@ -195,6 +209,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // updateButton
             // 
+            this.updateButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.updateButton.Location = new System.Drawing.Point(197, 413);
             this.updateButton.Name = "updateButton";
             this.updateButton.Size = new System.Drawing.Size(95, 47);
@@ -205,6 +220,7 @@ namespace PBO_ManajemenRumahSakit
             // 
             // deleteButton
             // 
+            this.deleteButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.deleteButton.Location = new System.Drawing.Point(34, 413);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(95, 47);
@@ -233,14 +249,30 @@ namespace PBO_ManajemenRumahSakit
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(523, 146);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(365, 323);
             this.dataGridView1.TabIndex = 20;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 10.2F);
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(30, 36);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(71, 23);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "Kembali";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // Dokter
             // 
@@ -248,6 +280,7 @@ namespace PBO_ManajemenRumahSakit
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(919, 482);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.keywordTextBox);
@@ -267,7 +300,9 @@ namespace PBO_ManajemenRumahSakit
             this.Controls.Add(this.nameTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Dokter";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dokter";
             this.Load += new System.EventHandler(this.Dokter_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -297,5 +332,6 @@ namespace PBO_ManajemenRumahSakit
         private System.Windows.Forms.TextBox keywordTextBox;
         private System.Windows.Forms.Button searchButton;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label8;
     }
 }

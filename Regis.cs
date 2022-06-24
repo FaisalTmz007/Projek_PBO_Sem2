@@ -96,6 +96,7 @@ namespace PBO_ManajemenRumahSakit
         private void label11_Click(object sender, EventArgs e)
         {
             Home obj1 = new Home();
+            this.Hide();
             obj1.ShowDialog();
         }
     }

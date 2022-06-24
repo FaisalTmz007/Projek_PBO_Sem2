@@ -52,3 +52,4 @@ D:\Kuliah\Materi Kuliah\SEMESTER 2\4. PEMROGRAMAN BERORIENTASI OBJEK\Projek\PBOO
 D:\Kuliah\Materi Kuliah\SEMESTER 2\4. PEMROGRAMAN BERORIENTASI OBJEK\Projek\PBOOOOOOO\PBO_ManajemenRumahSakit\obj\Debug\PBO_ManajemenRumahSakit.Kamar.resources
 D:\Kuliah\Materi Kuliah\SEMESTER 2\4. PEMROGRAMAN BERORIENTASI OBJEK\Projek\PBOOOOOOO\PBO_ManajemenRumahSakit\obj\Debug\PBO_ManajemenRumahSakit.Dokter.resources
 D:\Kuliah\Materi Kuliah\SEMESTER 2\4. PEMROGRAMAN BERORIENTASI OBJEK\Projek\PBOOOOOOO\PBO_ManajemenRumahSakit\obj\Debug\PBO_ManajemenRumahSakit.Regis.resources
+D:\Kuliah\Materi Kuliah\SEMESTER 2\4. PEMROGRAMAN BERORIENTASI OBJEK\Projek\PBOOOOOOO\PBO_ManajemenRumahSakit\obj\Debug\PBO_ManajemenRumahSakit.Pasien.resources

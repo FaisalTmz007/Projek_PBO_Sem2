@@ -229,5 +229,12 @@ namespace PBO_ManajemenRumahSakit
                 resetMe();
             }
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            Home obj1 = new Home();
+            this.Hide();
+            obj1.ShowDialog();
+        }
     }
 }

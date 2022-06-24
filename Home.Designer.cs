@@ -34,9 +34,9 @@ namespace PBO_ManajemenRumahSakit
             this.patientInformationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.doctorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.roomInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.closeApp = new System.Windows.Forms.LinkLabel();
-            this.roomInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,9 +92,21 @@ namespace PBO_ManajemenRumahSakit
             this.menuStrip1.Location = new System.Drawing.Point(9, 118);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(672, 112);
+            this.menuStrip1.Size = new System.Drawing.Size(822, 112);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // roomInfoToolStripMenuItem
+            // 
+            this.roomInfoToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.roomInfoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.roomInfoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("roomInfoToolStripMenuItem.Image")));
+            this.roomInfoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.roomInfoToolStripMenuItem.Name = "roomInfoToolStripMenuItem";
+            this.roomInfoToolStripMenuItem.Size = new System.Drawing.Size(173, 108);
+            this.roomInfoToolStripMenuItem.Text = "Informasi Kamar";
+            this.roomInfoToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.roomInfoToolStripMenuItem.Click += new System.EventHandler(this.roomInfoToolStripMenuItem_Click_1);
             // 
             // label1
             // 
@@ -126,23 +138,12 @@ namespace PBO_ManajemenRumahSakit
             this.closeApp.VisitedLinkColor = System.Drawing.Color.White;
             this.closeApp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.closeApp_LinkClicked);
             // 
-            // roomInfoToolStripMenuItem
-            // 
-            this.roomInfoToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.roomInfoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.roomInfoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("roomInfoToolStripMenuItem.Image")));
-            this.roomInfoToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.roomInfoToolStripMenuItem.Name = "roomInfoToolStripMenuItem";
-            this.roomInfoToolStripMenuItem.Size = new System.Drawing.Size(173, 108);
-            this.roomInfoToolStripMenuItem.Text = "Informasi Kamar";
-            this.roomInfoToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(760, 320);
+            this.ClientSize = new System.Drawing.Size(789, 320);
             this.Controls.Add(this.closeApp);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);

@@ -61,11 +61,11 @@ namespace PBO_ManajemenRumahSakit
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(379, 25);
+            this.label1.Location = new System.Drawing.Point(360, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(201, 45);
+            this.label1.Size = new System.Drawing.Size(279, 45);
             this.label1.TabIndex = 22;
-            this.label1.Text = "Data Pasien";
+            this.label1.Text = "Registrasi Pasien";
             // 
             // label2
             // 
@@ -280,9 +280,9 @@ namespace PBO_ManajemenRumahSakit
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(437, 430);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(73, 23);
+            this.label11.Size = new System.Drawing.Size(71, 23);
             this.label11.TabIndex = 47;
-            this.label11.Text = "Beranda";
+            this.label11.Text = "Kembali";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // rawatComboBox
@@ -308,7 +308,7 @@ namespace PBO_ManajemenRumahSakit
             this.label13.TabIndex = 48;
             this.label13.Text = "Jenis Rawat";
             // 
-            // Pasien
+            // Regis
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -339,9 +339,10 @@ namespace PBO_ManajemenRumahSakit
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Pasien";
+            this.MaximizeBox = false;
+            this.Name = "Regis";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "7";
+            this.Text = "Registrasi";
             this.ResumeLayout(false);
             this.PerformLayout();
 
