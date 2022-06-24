@@ -1,0 +1,88 @@
+CREATE TABLE public.spesialisasi
+(
+    id_spesialisasi integer NOT NULL,
+    nama_spesialisasi character varying(50) NOT NULL,
+    PRIMARY KEY (id_spesialisasi)
+);
+
+ALTER TABLE IF EXISTS public.spesialisasi
+    OWNER to postgres;
+
+
+
+CREATE TABLE public.kamar
+(
+    id_kamar integer NOT NULL,
+    nama_kamar character varying(50) NOT NULL,
+    PRIMARY KEY (id_kamar)
+);
+
+ALTER TABLE IF EXISTS public.kamar
+    OWNER to postgres;
+
+
+
+CREATE TABLE public.dokter
+(
+    id_dokter integer NOT NULL GENERATED ALWAYS AS IDENTITY,
+    nama_dokter character varying(50) NOT NULL,
+    jenis_kelamin character varying(10) NOT NULL,
+    tgl_lahir date NOT NULL,
+    no_hp character varying(13) NOT NULL,
+    alamat_dokter character varying(100) NOT NULL,
+    spesialisasi_id_spesialisasi integer NOT NULL,
+    PRIMARY KEY (id_dokter),
+    CONSTRAINT "spesialisasi_dokter_FK" FOREIGN KEY (spesialisasi_id_spesialisasi)
+        REFERENCES public.spesialisasi (id_spesialisasi) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+);
+
+ALTER TABLE IF EXISTS public.dokter
+    OWNER to postgres;
+
+
+
+
+CREATE TABLE public.pasien
+(
+    id_pasien integer NOT NULL GENERATED ALWAYS AS IDENTITY,
+    nama_pasien character varying(50) NOT NULL,
+    jenis_kelamin character varying(10) NOT NULL,
+    tgl_lahir date NOT NULL,
+    tinggi_badan integer NOT NULL,
+    berat_badan integer NOT NULL,
+    keluhan character varying(100) NOT NULL,
+    no_hp character varying(13) NOT NULL,
+    alamat_pasien character varying(100) NOT NULL,
+    dokter_id_dokter integer NOT NULL,
+    jenis_rawat character varying(5) NOT NULL,
+    kamar_id_kamar integer NOT NULL,
+    PRIMARY KEY (id_pasien),
+    CONSTRAINT "dokter_pasien_FK" FOREIGN KEY (dokter_id_dokter)
+        REFERENCES public.dokter (id_dokter) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+);
+
+ALTER TABLE IF EXISTS public.pasien
+    OWNER to postgres;
+
+ALTER TABLE IF EXISTS public.pasien
+    ADD CONSTRAINT "kamar_pasien_FK" FOREIGN KEY (kamar_id_kamar)
+    REFERENCES public.kamar (id_kamar) MATCH SIMPLE
+    ON UPDATE NO ACTION
+    ON DELETE NO ACTION
+    NOT VALID;
+
+
+-- Insert --
+INSERT INTO public.spesialisasi(
+	id_spesialisasi, nama_spesialisasi)
+	VALUES (1, 'THT');
+
+INSERT INTO public.kamar(
+	id_kamar, nama_kamar)
+	VALUES (1, 'Melati');
